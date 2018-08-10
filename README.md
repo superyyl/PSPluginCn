@@ -13,6 +13,7 @@
 1. 下载ctx格式的插件[发布地址](https://github.com/superyyl/PSPluginCn/releases)
 2. 打开Chrome的扩展程序,勾选右上角的开发者模式
 3. 用拖拽的方式,将ctx插件拽到Chrome窗口上
+4. 刷新浏览器
 
 ### 遇到问题
 1. 在github上发issues给我
