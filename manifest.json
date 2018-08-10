@@ -1,0 +1,22 @@
+{
+  "name": "PS辅助",
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "description": "",
+  "browser_action": {
+    "default_icon": "images/icon-16.png",
+    "default_title": "PS辅助",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://play.pokemonshowdown.com/*", "https://replay.pokemonshowdown.com/*", "http://china.psim.us/*"],
+      "js": ["js/jquery-3.3.1.min.js", "js/my.js"]
+    }
+  ]
+}
