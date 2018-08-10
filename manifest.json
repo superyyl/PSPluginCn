@@ -1,11 +1,11 @@
 {
-  "name": "PS辅助",
+  "name": "PS官服汉化插件",
   "manifest_version": 2,
   "version": "0.1.0",
-  "description": "",
+  "description": "Pokemon Showdown官服汉化插件",
   "browser_action": {
     "default_icon": "images/icon-16.png",
-    "default_title": "PS辅助",
+    "default_title": "PS官服汉化插件",
     "default_popup": "popup.html"
   },
   "icons": {
